@@ -50,6 +50,12 @@
     component: './SupportLanguageList',
   },
   {
+    path: '/support-language/create',
+    name: 'test-page',
+    icon: 'smile',
+    component: './SupportLanguageList/AddNewSupportLng',
+  },
+  {
     path: '/',
     redirect: '/welcome',
   },
